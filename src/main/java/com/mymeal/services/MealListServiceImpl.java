@@ -9,7 +9,7 @@ import com.mymeal.daos.MenuItemsDao;
 import com.mymeal.models.MenuItems;
 
 @Service
-public class MealListServiceImpl {
+public class MealListServiceImpl implements MealListService {
 
 	private MenuItemsDao menuItemsDao;
 
@@ -26,7 +26,7 @@ public class MealListServiceImpl {
 	public void addMenuItem(MenuItems item) {
 		// TODO Auto-generated method stub
 		menuItemsDao.addMenuItem(item);
-		
+
 	}
 
 }

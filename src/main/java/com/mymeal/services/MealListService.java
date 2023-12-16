@@ -15,4 +15,6 @@ public interface MealListService {
 
 	public List<MenuItems> getMenuItems();
 
+	public void addMenuItem(MenuItems item);
+
 }
